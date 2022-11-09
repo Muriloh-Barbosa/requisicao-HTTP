@@ -1,13 +1,123 @@
 {
-  "Nome": "Murilo",
-   "Sobrenome": "Api Python",
-   "CPF": "123.456.789-89",
-   "Endereço": "Rua 5",
-   "Cidade": "São Paulo",
-   "Estado": "São Paulo",
-   "Telefone": "9 99999999",
-   "Email": "teste@gmail.com",
-   "Hospital": "Hospital do coração",
-   "Matricula": "7844444444444",
-   "DatadoCadastro": "2022-11-20"
-  }
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "Nome",
+        "Sobrenome",
+        "CPF",
+        "Endereço",
+        "Cidade",
+        "Estado",
+        "Telefone",
+        "Email",
+        "Hospital",
+        "Matricula",
+        "DatadoCadastro"
+    ],
+    "properties": {
+        "Nome": {
+            "type": "string",
+            "default": "",
+            "title": "The Nome Schema",
+            "examples": [
+                "Carlos"
+            ]
+        },
+        "Sobrenome": {
+            "type": "string",
+            "default": "",
+            "title": "The Sobrenome Schema",
+            "examples": [
+                "Api Python"
+            ]
+        },
+        "CPF": {
+            "type": "string",
+            "default": "",
+            "title": "The CPF Schema",
+            "examples": [
+                "123.456.789-89"
+            ]
+        },
+        "Endereço": {
+            "type": "string",
+            "default": "",
+            "title": "The Endereço Schema",
+            "examples": [
+                "Rua 5"
+            ]
+        },
+        "Cidade": {
+            "type": "string",
+            "default": "",
+            "title": "The Cidade Schema",
+            "examples": [
+                "São Paulo"
+            ]
+        },
+        "Estado": {
+            "type": "string",
+            "default": "",
+            "title": "The Estado Schema",
+            "examples": [
+                "São Paulo"
+            ]
+        },
+        "Telefone": {
+            "type": "string",
+            "default": "",
+            "title": "The Telefone Schema",
+            "examples": [
+                "9 99999999"
+            ]
+        },
+        "Email": {
+            "type": "string",
+            "default": "",
+            "title": "The Email Schema",
+            "examples": [
+                "teste@gmail.com"
+            ]
+        },
+        "Hospital": {
+            "type": "string",
+            "default": "",
+            "title": "The Hospital Schema",
+            "examples": [
+                "Hospital do coração"
+            ]
+        },
+        "Matricula": {
+            "type": "string",
+            "default": "",
+            "title": "The Matricula Schema",
+            "examples": [
+                "7844444444444"
+            ]
+        },
+        "DatadoCadastro": {
+            "type": "string",
+            "default": "",
+            "title": "The DatadoCadastro Schema",
+            "examples": [
+                "2022-11-20"
+            ]
+        }
+    },
+    "examples": [{
+        "Nome": "Carlos",
+        "Sobrenome": "Api Python",
+        "CPF": "123.456.789-89",
+        "Endereço": "Rua 5",
+        "Cidade": "São Paulo",
+        "Estado": "São Paulo",
+        "Telefone": "9 99999999",
+        "Email": "teste@gmail.com",
+        "Hospital": "Hospital do coração",
+        "Matricula": "7844444444444",
+        "DatadoCadastro": "2022-11-20"
+    }]
+}
