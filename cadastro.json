@@ -2,12 +2,12 @@
   "Nome"	 :"Murilo",
    "Sobrenome"	 :"Api Python",
    "CPF"	 :"123.456.789-89",
-   "Endereço"	 : "Rua 5",
-   "Cidade"	 : "São Paulo",
-   "Estado"	 : "São Paulo",
+   "Endereco"	 : "Rua 5",
+   "Cidade"	 : "Sao Paulo",
+   "Estado"	 : "Sao Paulo",
    "Telefone"	 :"9 99999999",
    "Email"	 :"teste@gmail.com",
-   "Hospital"	 :"Hospital do coração",
+   "Hospital"	 :"Hospital do coracao",
    "Matricula"	 :"7844444444444",
    "DataCadastro":"2022-11-20"
   }
