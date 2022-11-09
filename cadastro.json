@@ -1,13 +1,13 @@
 {
-  "Nome": String:"Murilo",
-   "Sobrenome": String:"Api Python",
-   "CPF": String:"123.456.789-89",
-   "Endereço": String:"Rua 5",
-   "Cidade": String:"São Paulo",
-   "Estado": String:"São Paulo",
-   "Telefone": Int:"9 99999999",
-   "Email": String:"teste@gmail.com",
-   "Hospital": String:"Hospital do coração",
-   "Matricula": String:"7844444444444",
-   "DataCadastro": String:"2022-11-20"
+  "Nome"	 :"Murilo",
+   "Sobrenome"	 :"Api Python",
+   "CPF"	 :"123.456.789-89",
+   "Endereço"	 : "Rua 5",
+   "Cidade"	 : "São Paulo",
+   "Estado"	 : "São Paulo",
+   "Telefone"	 :"9 99999999",
+   "Email"	 :"teste@gmail.com",
+   "Hospital"	 :"Hospital do coração",
+   "Matricula"	 :"7844444444444",
+   "DataCadastro":"2022-11-20"
   }
