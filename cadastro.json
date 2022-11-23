@@ -1,13 +1,123 @@
 {
-  "Nome"	 :"Teste",
-   "Sobrenome"	 :"Api",
-   "CPF"	 :"123.456.789-84",
-   "Endereco"	 : "Rua 5",
-   "Cidade"	 : "Sao Paulo",
-   "Estado"	 : "Sao Paulo",
-   "Telefone"	 :"9 99999999",
-   "Email"	 :"teste@gmail.com",
-   "Hospital"	 :"Hospital do coracao",
-   "Matricula"	 :"7844444444444",
-   "DataCadastro":"2022-11-20"
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://muriloh-barbosa.github.io/requisicao-HTTP/cadastro.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "Nome",
+        "Sobrenome",
+        "CPF",
+        "Endereco",
+        "Cidade",
+        "Estado",
+        "Telefone",
+        "Email",
+        "Hospital",
+        "Matricula",
+        "DataCadastro"
+    ],
+    "properties": {
+        "Nome": {
+            "type": "string",
+            "default": "",
+            "title": "The Nome Schema",
+            "examples": [
+                "Teste"
+            ]
+        },
+        "Sobrenome": {
+            "type": "string",
+            "default": "",
+            "title": "The Sobrenome Schema",
+            "examples": [
+                "Api"
+            ]
+        },
+        "CPF": {
+            "type": "string",
+            "default": "",
+            "title": "The CPF Schema",
+            "examples": [
+                "123.456.789-84"
+            ]
+        },
+        "Endereco": {
+            "type": "string",
+            "default": "",
+            "title": "The Endereco Schema",
+            "examples": [
+                "Rua 5"
+            ]
+        },
+        "Cidade": {
+            "type": "string",
+            "default": "",
+            "title": "The Cidade Schema",
+            "examples": [
+                "Sao Paulo"
+            ]
+        },
+        "Estado": {
+            "type": "string",
+            "default": "",
+            "title": "The Estado Schema",
+            "examples": [
+                "Sao Paulo"
+            ]
+        },
+        "Telefone": {
+            "type": "string",
+            "default": "",
+            "title": "The Telefone Schema",
+            "examples": [
+                "9 99999999"
+            ]
+        },
+        "Email": {
+            "type": "string",
+            "default": "",
+            "title": "The Email Schema",
+            "examples": [
+                "teste@gmail.com"
+            ]
+        },
+        "Hospital": {
+            "type": "string",
+            "default": "",
+            "title": "The Hospital Schema",
+            "examples": [
+                "Hospital do coracao"
+            ]
+        },
+        "Matricula": {
+            "type": "string",
+            "default": "",
+            "title": "The Matricula Schema",
+            "examples": [
+                "7844444444444"
+            ]
+        },
+        "DataCadastro": {
+            "type": "string",
+            "default": "",
+            "title": "The DataCadastro Schema",
+            "examples": [
+                "2022-11-20"
+            ]
+        }
+    },
+    "examples": [{
+        "Nome": "Teste",
+        "Sobrenome": "Api",
+        "CPF": "123.456.789-84",
+        "Endereco": "Rua 5",
+        "Cidade": "Sao Paulo",
+        "Estado": "Sao Paulo",
+        "Telefone": "9 99999999",
+        "Email": "teste@gmail.com",
+        "Hospital": "Hospital do coracao",
+        "Matricula": "7844444444444",
+        "DataCadastro": "2022-11-20"
+    }]
 }
